@@ -14,9 +14,14 @@ namespace ExemploGetSet
             //set tem como objetivo guardar determinada informação
 
             dogao.SetNome("aaaaaaaaaaaaaaaaa");
-            dogao.SetAltura(2.01);
+            dogao.SetAltura(2);
             dogao.SetPeso (80);
             dogao.SetRaca ("Pinscher");
+
+            Console.WriteLine(dogao.GetNome());
+            Console.WriteLine(dogao.GetAltura());
+            Console.WriteLine(dogao.GetPeso());
+            Console.WriteLine(dogao.GetRaca());
         }
     }
 }

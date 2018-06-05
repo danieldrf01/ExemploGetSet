@@ -77,5 +77,26 @@ namespace ExemploGetSet
          //peso min: 0.1  max: 150
         // raca min: 3    max: 40
 
+        public string GetNome()
+        {
+            return Nome;
+        }
+
+        public double GetAltura()
+        {
+            return Altura;
+        }
+
+        public string GetRaca()
+        {
+            return Raca;
+        }
+
+        public double GetPeso()
+        {
+            return Peso;
+        }
+
+
     }
 }
